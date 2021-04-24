@@ -12,5 +12,9 @@ export class ListadoComponent {
   borrarHeroe(){
      this.heroeBorrado= this.heroes.shift() || '';
   }
+  obtenerHeroe(heroe:string){
+    alert(heroe);
+  }
 
 }
+
