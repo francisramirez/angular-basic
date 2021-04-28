@@ -29,5 +29,8 @@ export class MainPageComponent implements OnInit {
 
   ngOnInit() {
   }
+  agregarNuevoPersonaje(personaje:Personaje){
+     this.personajes.push(personaje);
+  }
 
 }
